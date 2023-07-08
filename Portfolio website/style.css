@@ -1,0 +1,382 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(25, 1, 48);
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(8, 142, 237);
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: .3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(240, 194, 41);
+    font-size: 1.6rem;
+}
+
+.left {
+    font-size: 3.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 13rem 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 4rem;
+}
+
+.leftSection .btn {
+    padding: .6rem .5rem;
+    border-radius: 1.2rem;
+    background-color: #53059f;
+    color: gray;
+    font-size: 1.5rem;
+    border: .2rem solid white;
+}
+
+.leftSection .btn:hover {
+    font-size: 1.6rem;
+    color: orange;
+    cursor: pointer;
+}
+
+.rightSection {
+    width: 30%;
+}
+
+.rightSection img {
+    margin: -5.9rem -3.5rem;
+    width: 30rem
+}
+
+.purple {
+    color: rgb(208, 167, 247);
+}
+
+.gray {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+#element {
+    color: rgb(208, 167, 247);
+}
+
+main hr {
+    border: .1rem;
+    background: rgb(8, 142, 237);
+    height: .1rem;
+    margin: 3.5rem 7.0rem
+}
+
+.secondSection {
+    margin: 0 8rem;
+    height: 45vh;
+}
+
+.secondSection h1 {
+    font-size: 3rem;
+
+}
+
+.secondSection .line {
+    background: white;
+    height: .1rem;
+    margin: 11rem 6.5rem;
+    width: 68rem;
+    display: flex;
+}
+
+.secondSection .vertical {
+    background: white;
+    height: 5.2rem;
+    width: .1rem;
+    margin: 0 9.65rem;
+}
+
+.img-Top {
+    width: 11rem;
+    position: relative;
+    top: -5.7rem;
+    left: 0rem;
+}
+
+.img-Top1 {
+    width: 5.2rem;
+    position: relative;
+    top: -5.9rem;
+    left: 0rem;
+}
+
+.vertical-title {
+    position: relative;
+    top: .7rem;
+    width: 15rem;
+    font-size: 1.3rem;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 1.5rem;
+    width: 15rem;
+    color: gray;
+    font-size: 1.1rem;
+}
+
+/* third section */
+.thirdSection {
+    margin: 0 8rem;
+    height: 39vh;
+}
+
+.thirdSection h1 {
+    font-size: 3rem;
+
+}
+
+.thirdSection .line {
+    background: white;
+    height: .1rem;
+    margin: 11rem 6.5rem;
+    width: 68rem;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    background: white;
+    height: 5.2rem;
+    width: .1rem;
+    margin: 0 9.65rem;
+}
+
+.fourthSection {
+    margin: 0 8rem;
+    height: 75vh;
+}
+
+.fourthSection h1 {
+    font-size: 3rem;
+}
+
+.fourthSection .line {
+    background: white;
+    height: .1rem;
+    margin: 11rem 6.5rem;
+    width: 68rem;
+    display: flex;
+}
+
+.fourthSection .vertical {
+    background: white;
+    height: 5.2rem;
+    width: .1rem;
+    margin: 0 9.65rem
+}
+
+.fourthSection .vertical-title {
+    position: relative;
+    top: 5.7rem;
+    width: 15rem;
+    font-size: 1.3rem;
+}
+
+.fourthSection .year {
+    position: relative;
+    top: 5.7rem;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+.fourthSection .color {
+    color: rgb(208, 167, 247);
+}
+
+.img-Top0 {
+    width: 6.2rem;
+    position: relative;
+    top: -6.9rem;
+    left: 0rem;
+}
+
+.img-Top2 {
+    width: 8.7rem;
+    position: relative;
+    top: -8.6rem;
+    left: -1.8rem;
+}
+
+.img-Top3 {
+    width: 5.2rem;
+    position: relative;
+    top: -6.8rem;
+    left: 0rem;
+}
+
+.img-Top4 {
+    width: 8.4rem;
+    position: relative;
+    top: -6.1rem;
+    left: 0rem;
+}
+
+.vertical-title {
+    position: relative;
+    top: .7rem;
+    width: 15rem;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 1.5rem;
+    width: 15rem;
+    color: gray;
+    font-size: 1rem;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(8, 142, 237);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+   
+}
+
+.footerContainer {
+    padding: 7rem 3rem 2rem;
+}
+
+footer .socialIcon {
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+footer .socialIcon a {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 10%;
+
+}
+
+footer .socialIcon a i {
+    font-size: 2.5rem;
+    opacity: 0.9;
+    color: black;
+}
+
+footer .socialIcon a:hover {
+    transition: 0.5s ease;
+    background-color: #111;
+}
+
+footer .socialIcon a:hover i {
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+footer .info {
+    margin: 3rem 0;
+}
+
+footer .info ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer .info ul li a {
+    text-decoration: none;
+    color: rgb(25, 1, 48);
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    transition: 0.5s ease;
+    font-weight: 600;
+
+}
+
+footer .info ul li a:hover {
+    opacity: 1;
+    color: rgb(247, 244, 244);
+}
+
+footer .text-center {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(25, 1, 48);
+}
+
+footer .desiner {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    margin: 0 .5rem;
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 65%;
+        min-width: 300px;
+    }
+    hr{
+        width: 82rem;
+    }
+    .rightSection img{
+        width: 64rem;
+    }
+    .firstSection>div {
+        width: 42rem;
+        padding-left: 29rem;
+        margin-left: -26rem;
+    }
+    .fourthSection {
+        margin: 0rem 17rem;
+        height: 50vh;
+    }
+}
